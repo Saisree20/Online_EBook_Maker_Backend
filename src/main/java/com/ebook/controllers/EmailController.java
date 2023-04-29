@@ -3,7 +3,7 @@ package com.ebook.controllers;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
- 
+
 import org.apache.commons.mail.EmailException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -17,7 +17,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.ebook.exceptions.DoesNotExistsException;
 import com.ebook.service.EmailService;
- 
+
+
 @RestController
 @RequestMapping("/email")
 public class EmailController {
